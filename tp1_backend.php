@@ -6,8 +6,8 @@
     <title>Prog.Backend</title>
 </head>
 <body>
-<h1>Hola Mundo</h1>
 <?php
+echo "<b >Hola Mundo</b> <br><br>";
 $Cadena="Hola Mundo";
 echo $Cadena;
 echo "<br>";
@@ -22,76 +22,41 @@ $Total100para1=$Porcionpizza*$Personas;
 $Totalparacada1=$Porcionpizza/$Personas;
 $Totalderesto=$Porcionpizza%$Personas;
 
-echo $Totaldecosa;
-echo "<br>";
-echo $Totaldecosant;
-echo "<br>";
-echo $Total100para1;
-echo "<br>";
-echo $Totalparacada1;
-echo "<br>";
-echo $Totalderesto;
+echo "$Totaldecosa <br>";
+echo "$Totaldecosant <br>";
+echo "$Total100para1 <br>";
+echo "$Totalparacada1 <br>";
+echo "$Totalderesto <br>";
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
+echo "<br> <br>";
 
 $CF="Transformación de grados Celsius a Fahrenheit";
-echo $CF;
-
+echo "$CF <br>";
 $Celsius=20;
-echo "<br>";
 $PasajeaFahrenheit= ($Celsius*9/5)+32;
-echo $PasajeaFahrenheit;
+echo "20°C a Fahrenheit = $PasajeaFahrenheit <br><br><br>";
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
 
 $Rectangulo="Perímetro y Área de un Rectángulo";
-echo $Rectangulo;
-echo "<br>";
-
+echo "$Rectangulo <br>";
 $Base=18;
 $Altura=12;
 
-$Rperimetro="Perímetro";
-echo $Rperimetro;
-echo "<br>";
 $peri= 2*($Base+$Altura);
-echo $peri;
-echo "<br>";
-echo "<br>";
-
-$RArea="Área";
-echo $RArea;
-echo "<br>";
+echo "- Perímetro = $peri <br>";
 $ari= $Base*$Altura;
-echo $ari;
+echo "- Área = $ari <br>";
+echo "<br><br>";
 
-echo "<br>";
-echo "<br>";
-echo "<br>";
 
 $Circulo="Perímetro y Área de un Circulo";
-echo $Circulo;
-echo "<br>";
-
+echo "$Circulo <br>";
 $Radio=30;
 
-$Cperimetro="Perímetro";
-echo $Cperimetro;
-echo "<br>";
 $cperi= 2*3.14*$Radio;
-echo $cperi;
-echo "<br>";
-echo "<br>";
-
-$CArea="Área";
-echo $CArea;
-echo "<br>";
+echo "- Perímetro = $cperi <br>";
 $cari= 3.14*($Radio**2);
-echo $cari;
+echo "- Área = $cari";
 
 
 
